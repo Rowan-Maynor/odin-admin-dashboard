@@ -2,8 +2,16 @@ body {
     margin: 0;
 }
 
+.main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
+}
+
 #div-1 {
     background-color: red;
+    grid-row: 1 / -1;
+    height: 100vh;
 }
 
 #div-2 {
