@@ -31,11 +31,15 @@ body {
     height: 100vh;
 }
 
-.title .nav-option{
+.title .nav-option {
     flex-direction: row;
 }
 
 .title {
+    align-items: center;
+}
+
+.nav-option {
     align-items: center;
 }
 
