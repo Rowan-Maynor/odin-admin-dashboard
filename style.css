@@ -10,22 +10,28 @@ body {
     display: grid;
 }
 
+.flex-wrapper{
+    display: flex;
+}
+
 .home {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
 }
 
 .nav-sections{
+    flex-direction: column;
     padding: 10px;
-    grid-template-columns: 1fr 3fr;
-    gap: 10px;
-    align-items: center;
 }
 
 #nav-bar {
     background-color: red;
     grid-row: 1 / -1;
     height: 100vh;
+}
+
+.title .nav-option{
+    flex-direction: row;
 }
 
 #status-bar {
