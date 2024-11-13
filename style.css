@@ -1,11 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
 
-.home-layout {
+.grid-wrapper{
     display: grid;
+}
+
+.home {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
+}
+
+.nav-sections{
+    
 }
 
 #nav-bar {
