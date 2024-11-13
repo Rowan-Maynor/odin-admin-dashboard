@@ -52,6 +52,7 @@ body {
 }
 
 .nav-option {
+    margin-top: 12px;
     padding-left: 13px;
 }
 
@@ -63,7 +64,7 @@ body {
     color: #fef2f2;
 }
 .new-section {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .icon-sm {
