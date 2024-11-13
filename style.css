@@ -35,6 +35,10 @@ body {
     flex-direction: row;
 }
 
+.title {
+    align-items: center;
+}
+
 .title>p {
     margin: 0;
     margin-left: 10px;
