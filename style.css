@@ -21,7 +21,8 @@ body {
 
 .nav-sections{
     flex-direction: column;
-    padding: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
 }
 
 #nav-bar {
@@ -32,6 +33,10 @@ body {
 
 .title .nav-option{
     flex-direction: row;
+}
+
+.new-section {
+    margin-top: 30px;
 }
 
 .icon-sm {
