@@ -2,22 +2,22 @@ body {
     margin: 0;
 }
 
-.main {
+.home-layout {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
 }
 
-#div-1 {
+#nav-bar {
     background-color: red;
     grid-row: 1 / -1;
     height: 100vh;
 }
 
-#div-2 {
+#status-bar {
     background-color: blue;
 }
 
-#div-3 {
+#main-content {
     background-color: green;
 }
