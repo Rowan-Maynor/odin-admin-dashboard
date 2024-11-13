@@ -16,7 +16,7 @@ body {
 
 .home {
     grid-template-columns: 260px 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 180px 1fr;
 }
 
 .nav-sections{
@@ -76,11 +76,11 @@ body {
 }
 
 #status-bar {
-    background-color: blue;
+    background-color: white;
 }
 
 #main-content {
-    background-color: green;
+    background-color: lightgray;
 }
 
 .anta-regular {
