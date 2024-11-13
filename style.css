@@ -51,11 +51,14 @@ body {
 }
 
 .nav-option {
-    padding-left: 10px;
+    padding-left: 13px;
 }
 
 .nav-option>p {
-    margin-left: 20px;
+    margin: 0;
+    margin-left: 17px;
+    font-size: 1.25em;
+    line-height: 1.25em;
 }
 .new-section {
     margin-top: 30px;
