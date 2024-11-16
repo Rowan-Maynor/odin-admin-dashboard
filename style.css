@@ -103,6 +103,11 @@ body {
     font-size: 1em;
 }
 
+.profile-picture-sm {
+    height: 60px;
+    margin-left: 20px;
+}
+
 .status-bottom {
     height: 100px;
 }
