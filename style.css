@@ -127,6 +127,7 @@ body {
 .greeting {
     flex-direction: column;
     margin-left: 20px;
+    flex-shrink: 0;
 }
 
 #greeting-top {
