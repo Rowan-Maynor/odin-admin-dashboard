@@ -94,7 +94,7 @@ body {
     background-color: #fdecec;
     border: none;
     outline: none;
-    border-radius: 12px;
+    border-radius: 50px;
     width: clamp(400px, 40vw, 90vw);
     height: 40px;
     margin-left: 10px;
@@ -141,6 +141,21 @@ body {
 
 #greeting-top, #greeting-bottom {
     font-weight: 600;
+}
+
+.status-button {
+    background-color: #dc2626;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5em;
+    padding: 6px;
+    padding-inline: 30px;
+    margin-left: 15px;
+}
+
+.first-button {
+    margin-left: 35vw;
 }
 
 #main-content {
