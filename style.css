@@ -87,6 +87,19 @@ body {
     height: 80px;
     padding-top: 20px;
     padding-left: 50px;
+    align-items: center;
+}
+
+#search-input {
+    background-color: #fdecec;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: clamp(400px, 40vw, 90vw);
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 1em;
 }
 
 .status-bottom {
