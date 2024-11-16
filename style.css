@@ -124,6 +124,25 @@ body {
     height: 80px;
 }
 
+.greeting {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#greeting-top {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+#greeting-bottom {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+#greeting-top, #greeting-bottom {
+    font-weight: 600;
+}
+
 #main-content {
     background-color: rgb(238, 238, 238);
 }
