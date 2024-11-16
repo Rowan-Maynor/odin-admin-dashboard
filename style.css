@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .grid-wrapper{
@@ -84,6 +85,8 @@ body {
 
 .status-top {
     height: 80px;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 .status-bottom {
