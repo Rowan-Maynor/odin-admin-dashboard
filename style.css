@@ -116,6 +116,12 @@ body {
 
 .status-bottom {
     height: 100px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.profile-picture-lg {
+    height: 80px;
 }
 
 #main-content {
