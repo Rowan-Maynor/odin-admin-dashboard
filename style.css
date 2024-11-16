@@ -108,6 +108,12 @@ body {
     margin-left: 20px;
 }
 
+#user-name {
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
 .status-bottom {
     height: 100px;
 }
@@ -120,5 +126,11 @@ body {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
   
