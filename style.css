@@ -82,6 +82,14 @@ body {
     box-shadow: 0 4px 4px 0px rgb(209, 209, 209);
 }
 
+.status-top {
+    height: 80px;
+}
+
+.status-bottom {
+    height: 100px;
+}
+
 #main-content {
     background-color: rgb(238, 238, 238);
 }
