@@ -181,6 +181,8 @@ body {
 
 .project-card-container {
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
 }
 
 .project-card {
