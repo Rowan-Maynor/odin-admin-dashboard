@@ -188,7 +188,7 @@ body {
 
 .project-card {
     flex-direction: column;
-    background-color: white;
+    background-image: linear-gradient(to right, #fb923c 1.5%, white 1.5% 100%);
     border-radius: 10px;
     padding-left: 40px;
     padding-top: 20px;
