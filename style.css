@@ -179,6 +179,10 @@ body {
     margin-bottom: 5px;
 }
 
+.project-card-container {
+    grid-template-columns: 1fr 1fr;
+}
+
 .anta-regular {
     font-family: "Anta", sans-serif;
     font-weight: 400;
