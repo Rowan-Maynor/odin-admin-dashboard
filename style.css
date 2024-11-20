@@ -183,6 +183,14 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.project-card {
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
 .anta-regular {
     font-family: "Anta", sans-serif;
     font-weight: 400;
