@@ -195,6 +195,17 @@ body {
     padding-bottom: 20px;
 }
 
+.project-card-title {
+    margin-bottom: 2px;
+    font-weight: 1000;
+}
+
+.project-card-body {
+    margin-top: 0px;
+    height: 80px;
+}
+
+
 .anta-regular {
     font-family: "Anta", sans-serif;
     font-weight: 400;
@@ -204,6 +215,12 @@ body {
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-style: normal;
 }
   
