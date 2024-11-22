@@ -215,6 +215,18 @@ body {
     gap: 10px;
 }
 
+.side-content {
+    flex-direction: column;
+}
+
+.announcements {
+    flex-direction: column;
+    width: 200px;
+}
+
+.announcement-post {
+    flex-direction: column;
+}
 .anta-regular {
     font-family: "Anta", sans-serif;
     font-weight: 400;
