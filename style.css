@@ -236,6 +236,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 5px;
+    box-shadow: 0px 5px 10px rgb(209, 209, 209);
 }
 
 .announcement-post {
@@ -278,5 +279,4 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-}
-  
+}  
