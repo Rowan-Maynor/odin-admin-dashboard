@@ -172,7 +172,7 @@ body {
     width: 65vw;
 }
 
-#projects-header {
+#projects-header, #announcements-header {
     font-size: 1.5em;
     margin-top: 30px;
     margin-left: 30px;
@@ -198,12 +198,12 @@ body {
     box-shadow: 0px 5px 10px rgb(209, 209, 209);
 }
 
-.project-card-title {
+.project-card-title, .announcement-post-title {
     margin-bottom: 2px;
     font-weight: 1000;
 }
 
-.project-card-body {
+.project-card-body, .announcement-post-body {
     margin-top: 0px;
     height: 80px;
     overflow: hidden;
@@ -221,11 +221,46 @@ body {
 
 .announcements {
     flex-direction: column;
-    width: 200px;
+    width: 412px;
+}
+
+#announcements-header {
+    margin-left: 5px;
+}
+
+#announcement-posts-container {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    padding-inline: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
 }
 
 .announcement-post {
     flex-direction: column;
+    border-top: 1px solid grey;
+}
+
+.announcement-post-title{
+    margin-top: 20px;
+}
+
+.announcement-post-body{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    height: 50px;
+    font-size: .85em;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#announcement-post-1 {
+    border-top: none;
 }
 .anta-regular {
     font-family: "Anta", sans-serif;
